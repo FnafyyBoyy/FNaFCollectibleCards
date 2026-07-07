@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_collectibles:item/basicpack",
+  "textures": {
+    "layer0": "fnaf_collectibles:item/fnafcommonpack"
+  }
+}
