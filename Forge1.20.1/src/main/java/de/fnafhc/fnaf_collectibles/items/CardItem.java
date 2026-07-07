@@ -1,6 +1,9 @@
 package de.fnafhc.fnaf_collectibles.items;
 
+import de.fnafhc.fnaf_collectibles.Fnaf_collectibles;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -19,6 +22,20 @@ public class CardItem extends Item {
 
     public String getLvl() {
         return lvl;
+    }
+
+    public static String getItemRegistryName(Item item) {
+        ResourceLocation id = BuiltInRegistries.ITEM.getKey(item);
+        return id != null ? id.toString() : "unknown";
+    }
+
+    public Component getName() {
+        return Fnaf_collectibles.convertToTranslate(this);
+    }
+
+    @Override
+    public Component getName(ItemStack stack) {
+        return Fnaf_collectibles.convertToTranslate(this);
     }
 
     public String getRarity() {

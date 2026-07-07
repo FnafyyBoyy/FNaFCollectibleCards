@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_collectibles:item/basiccard",
+  "textures": {
+    "layer0": "fnaf_collectibles:item/rare_bonbon_card"
+  }
+}
