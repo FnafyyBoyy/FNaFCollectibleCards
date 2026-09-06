@@ -1,6 +1,0 @@
-{
-  "parent": "fnaf_collectibles:item/basiccard",
-  "textures": {
-    "layer0": "fnaf_collectibles:item/legendary_jackobonnie_card"
-  }
-}

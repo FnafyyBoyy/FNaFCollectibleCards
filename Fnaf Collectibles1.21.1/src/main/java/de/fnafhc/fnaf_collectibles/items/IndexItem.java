@@ -70,9 +70,9 @@ public class IndexItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        Component c1 = Component.literal("Left-click: ").withStyle(ChatFormatting.WHITE)
+        Component c1 = Component.literal("Right-click: ").withStyle(ChatFormatting.WHITE)
                 .append(Component.literal("Open").withStyle(ChatFormatting.GRAY));
-        Component c2 = Component.literal("Right-click: ").withStyle(ChatFormatting.WHITE)
+        Component c2 = Component.literal("Shift Right-click: ").withStyle(ChatFormatting.WHITE)
                 .append(Component.literal("Index all cards in inventory").withStyle(ChatFormatting.GRAY));
         Component c3 = Component.literal("DO NOT LOSE THIS ITEM IF THE CARDS ARE IMPORTANT TO YOU").withStyle(ChatFormatting.RED);
 

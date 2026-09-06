@@ -136,9 +136,6 @@ Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for net/minecraftforge/common/data/GlobalLootModifierProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
 Conflicting propagated mapping for net/minecraftforge/common/data/GlobalLootModifierProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
-Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;: build -> m_6409_
-Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/client/IndexScreen$1/onPress()V from net/minecraft/client/gui/components/Checkbox/onPress()V: onPress -> m_5691_
-Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType;: getType -> m_7940_
 Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/client/IndexScreen/setInitialFocus(Lnet/minecraft/client/gui/components/events/GuiEventListener;)V from net/minecraft/client/gui/screens/Screen/setInitialFocus(Lnet/minecraft/client/gui/components/events/GuiEventListener;)V: setInitialFocus -> m_264313_
 Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/client/IndexScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/Screen/keyPressed(III)Z: keyPressed -> m_7933_
 Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/client/IndexScreen/isPauseScreen()Z from net/minecraft/client/gui/screens/Screen/isPauseScreen()Z: isPauseScreen -> m_7043_
@@ -150,6 +147,9 @@ Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/client/IndexScree
 Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/client/IndexScreen/mouseDragged(DDIDD)Z from net/minecraft/client/gui/components/events/ContainerEventHandler/mouseDragged(DDIDD)Z: mouseDragged -> m_7979_
 Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/client/IndexScreen/charTyped(CI)Z from net/minecraft/client/gui/components/events/ContainerEventHandler/charTyped(CI)Z: charTyped -> m_5534_
 Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/client/IndexScreen/mouseReleased(DDI)Z from net/minecraft/client/gui/components/events/ContainerEventHandler/mouseReleased(DDI)Z: mouseReleased -> m_6348_
+Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;: build -> m_6409_
+Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType;: getType -> m_7940_
+Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/client/IndexScreen$1/onPress()V from net/minecraft/client/gui/components/Checkbox/onPress()V: onPress -> m_5691_
 Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/items/CardItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/items/CardItem/getName(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/item/Item/getName(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;: getName -> m_7626_
 Conflicting propagated mapping for de/fnafhc/fnaf_collectibles/items/CollectiblePackItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
@@ -179,22 +179,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/common_bidybab_card.json
   assets/fnaf_collectibles/models/item/common_bonbon_card.json
   assets/fnaf_collectibles/models/item/common_bonnie_card.json
+  assets/fnaf_collectibles/models/item/common_candycadet_card.json
   assets/fnaf_collectibles/models/item/common_chica_card.json
   assets/fnaf_collectibles/models/item/common_circusbaby_card.json
+  assets/fnaf_collectibles/models/item/common_elchip_card.json
   assets/fnaf_collectibles/models/item/common_endo1_card.json
   assets/fnaf_collectibles/models/item/common_endo2_card.json
   assets/fnaf_collectibles/models/item/common_ennard_card.json
   assets/fnaf_collectibles/models/item/common_foxy_card.json
   assets/fnaf_collectibles/models/item/common_freddy_card.json
+  assets/fnaf_collectibles/models/item/common_fruitpunchclown_card.json
+  assets/fnaf_collectibles/models/item/common_funtimechica_card.json
   assets/fnaf_collectibles/models/item/common_funtimefoxy_card.json
   assets/fnaf_collectibles/models/item/common_funtimefreddy_card.json
   assets/fnaf_collectibles/models/item/common_goldenfreddy_card.json
+  assets/fnaf_collectibles/models/item/common_gumballswivelhands_card.json
+  assets/fnaf_collectibles/models/item/common_handunit_card.json
+  assets/fnaf_collectibles/models/item/common_happyfrog_card.json
+  assets/fnaf_collectibles/models/item/common_helpy_card.json
   assets/fnaf_collectibles/models/item/common_jackobonnie_card.json
   assets/fnaf_collectibles/models/item/common_jackochica_card.json
   assets/fnaf_collectibles/models/item/common_jj_card.json
+  assets/fnaf_collectibles/models/item/common_lefty_card.json
+  assets/fnaf_collectibles/models/item/common_lemonadeclown_card.json
   assets/fnaf_collectibles/models/item/common_lolbit_card.json
   assets/fnaf_collectibles/models/item/common_mangle_card.json
   assets/fnaf_collectibles/models/item/common_minireena_card.json
+  assets/fnaf_collectibles/models/item/common_moltenfreddy_card.json
+  assets/fnaf_collectibles/models/item/common_mrhippo_card.json
+  assets/fnaf_collectibles/models/item/common_musicman_card.json
+  assets/fnaf_collectibles/models/item/common_neddbear_card.json
   assets/fnaf_collectibles/models/item/common_nightmare_card.json
   assets/fnaf_collectibles/models/item/common_nightmareballoonboy_card.json
   assets/fnaf_collectibles/models/item/common_nightmarebonnie_card.json
@@ -203,20 +217,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/common_nightmarefredbear_card.json
   assets/fnaf_collectibles/models/item/common_nightmarefreddy_card.json
   assets/fnaf_collectibles/models/item/common_nightmarepuppet_card.json
+  assets/fnaf_collectibles/models/item/common_orville_card.json
   assets/fnaf_collectibles/models/item/common_phantomballoonboy_card.json
   assets/fnaf_collectibles/models/item/common_phantomchica_card.json
   assets/fnaf_collectibles/models/item/common_phantomfoxy_card.json
   assets/fnaf_collectibles/models/item/common_phantomfreddy_card.json
   assets/fnaf_collectibles/models/item/common_phantommangle_card.json
   assets/fnaf_collectibles/models/item/common_phantompuppet_card.json
+  assets/fnaf_collectibles/models/item/common_pickles_card.json
+  assets/fnaf_collectibles/models/item/common_pigpatch_card.json
   assets/fnaf_collectibles/models/item/common_plushtrap_card.json
+  assets/fnaf_collectibles/models/item/common_prizeking_card.json
   assets/fnaf_collectibles/models/item/common_puppet_card.json
+  assets/fnaf_collectibles/models/item/common_rockstarbonnie_card.json
+  assets/fnaf_collectibles/models/item/common_rockstarchica_card.json
+  assets/fnaf_collectibles/models/item/common_rockstarfoxy_card.json
+  assets/fnaf_collectibles/models/item/common_rockstarfreddy_card.json
+  assets/fnaf_collectibles/models/item/common_scrapbaby_card.json
+  assets/fnaf_collectibles/models/item/common_scraptrap_card.json
+  assets/fnaf_collectibles/models/item/common_securitypuppet_card.json
   assets/fnaf_collectibles/models/item/common_shadowbonnie_card.json
   assets/fnaf_collectibles/models/item/common_shadowfreddy_card.json
   assets/fnaf_collectibles/models/item/common_springtrap_card.json
   assets/fnaf_collectibles/models/item/common_toybonnie_card.json
   assets/fnaf_collectibles/models/item/common_toychica_card.json
   assets/fnaf_collectibles/models/item/common_toyfreddy_card.json
+  assets/fnaf_collectibles/models/item/common_trashgang_card.json
   assets/fnaf_collectibles/models/item/common_witheredbonnie_card.json
   assets/fnaf_collectibles/models/item/common_witheredchic_card.json
   assets/fnaf_collectibles/models/item/common_witheredchica_card.json
@@ -229,22 +255,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/epic_bidybab_card.json
   assets/fnaf_collectibles/models/item/epic_bonbon_card.json
   assets/fnaf_collectibles/models/item/epic_bonnie_card.json
+  assets/fnaf_collectibles/models/item/epic_candycadet_card.json
   assets/fnaf_collectibles/models/item/epic_chica_card.json
   assets/fnaf_collectibles/models/item/epic_circusbaby_card.json
+  assets/fnaf_collectibles/models/item/epic_elchip_card.json
   assets/fnaf_collectibles/models/item/epic_endo1_card.json
   assets/fnaf_collectibles/models/item/epic_endo2_card.json
   assets/fnaf_collectibles/models/item/epic_ennard_card.json
   assets/fnaf_collectibles/models/item/epic_foxy_card.json
   assets/fnaf_collectibles/models/item/epic_freddy_card.json
+  assets/fnaf_collectibles/models/item/epic_fruitpunchclown_card.json
+  assets/fnaf_collectibles/models/item/epic_funtimechica_card.json
   assets/fnaf_collectibles/models/item/epic_funtimefoxy_card.json
   assets/fnaf_collectibles/models/item/epic_funtimefreddy_card.json
   assets/fnaf_collectibles/models/item/epic_goldenfreddy_card.json
+  assets/fnaf_collectibles/models/item/epic_gumballswivelhands_card.json
+  assets/fnaf_collectibles/models/item/epic_handunit_card.json
+  assets/fnaf_collectibles/models/item/epic_happyfrog_card.json
+  assets/fnaf_collectibles/models/item/epic_helpy_card.json
   assets/fnaf_collectibles/models/item/epic_jackobonnie_card.json
   assets/fnaf_collectibles/models/item/epic_jackochica_card.json
   assets/fnaf_collectibles/models/item/epic_jj_card.json
+  assets/fnaf_collectibles/models/item/epic_lefty_card.json
+  assets/fnaf_collectibles/models/item/epic_lemonadeclown_card.json
   assets/fnaf_collectibles/models/item/epic_lolbit_card.json
   assets/fnaf_collectibles/models/item/epic_mangle_card.json
   assets/fnaf_collectibles/models/item/epic_minireena_card.json
+  assets/fnaf_collectibles/models/item/epic_moltenfreddy_card.json
+  assets/fnaf_collectibles/models/item/epic_mrhippo_card.json
+  assets/fnaf_collectibles/models/item/epic_musicman_card.json
+  assets/fnaf_collectibles/models/item/epic_neddbear_card.json
   assets/fnaf_collectibles/models/item/epic_nightmare_card.json
   assets/fnaf_collectibles/models/item/epic_nightmareballoonboy_card.json
   assets/fnaf_collectibles/models/item/epic_nightmarebonnie_card.json
@@ -253,20 +293,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/epic_nightmarefredbear_card.json
   assets/fnaf_collectibles/models/item/epic_nightmarefreddy_card.json
   assets/fnaf_collectibles/models/item/epic_nightmarepuppet_card.json
+  assets/fnaf_collectibles/models/item/epic_orville_card.json
   assets/fnaf_collectibles/models/item/epic_phantomballoonboy_card.json
   assets/fnaf_collectibles/models/item/epic_phantomchica_card.json
   assets/fnaf_collectibles/models/item/epic_phantomfoxy_card.json
   assets/fnaf_collectibles/models/item/epic_phantomfreddy_card.json
   assets/fnaf_collectibles/models/item/epic_phantommangle_card.json
   assets/fnaf_collectibles/models/item/epic_phantompuppet_card.json
+  assets/fnaf_collectibles/models/item/epic_pickles_card.json
+  assets/fnaf_collectibles/models/item/epic_pigpatch_card.json
   assets/fnaf_collectibles/models/item/epic_plushtrap_card.json
+  assets/fnaf_collectibles/models/item/epic_prizeking_card.json
   assets/fnaf_collectibles/models/item/epic_puppet_card.json
+  assets/fnaf_collectibles/models/item/epic_rockstarbonnie_card.json
+  assets/fnaf_collectibles/models/item/epic_rockstarchica_card.json
+  assets/fnaf_collectibles/models/item/epic_rockstarfoxy_card.json
+  assets/fnaf_collectibles/models/item/epic_rockstarfreddy_card.json
+  assets/fnaf_collectibles/models/item/epic_scrapbaby_card.json
+  assets/fnaf_collectibles/models/item/epic_scraptrap_card.json
+  assets/fnaf_collectibles/models/item/epic_securitypuppet_card.json
   assets/fnaf_collectibles/models/item/epic_shadowbonnie_card.json
   assets/fnaf_collectibles/models/item/epic_shadowfreddy_card.json
   assets/fnaf_collectibles/models/item/epic_springtrap_card.json
   assets/fnaf_collectibles/models/item/epic_toybonnie_card.json
   assets/fnaf_collectibles/models/item/epic_toychica_card.json
   assets/fnaf_collectibles/models/item/epic_toyfreddy_card.json
+  assets/fnaf_collectibles/models/item/epic_trashgang_card.json
   assets/fnaf_collectibles/models/item/epic_witheredbonnie_card.json
   assets/fnaf_collectibles/models/item/epic_witheredchic_card.json
   assets/fnaf_collectibles/models/item/epic_witheredchica_card.json
@@ -281,22 +333,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/legendary_bidybab_card.json
   assets/fnaf_collectibles/models/item/legendary_bonbon_card.json
   assets/fnaf_collectibles/models/item/legendary_bonnie_card.json
+  assets/fnaf_collectibles/models/item/legendary_candycadet_card.json
   assets/fnaf_collectibles/models/item/legendary_chica_card.json
   assets/fnaf_collectibles/models/item/legendary_circusbaby_card.json
+  assets/fnaf_collectibles/models/item/legendary_elchip_card.json
   assets/fnaf_collectibles/models/item/legendary_endo1_card.json
   assets/fnaf_collectibles/models/item/legendary_endo2_card.json
   assets/fnaf_collectibles/models/item/legendary_ennard_card.json
   assets/fnaf_collectibles/models/item/legendary_foxy_card.json
   assets/fnaf_collectibles/models/item/legendary_freddy_card.json
+  assets/fnaf_collectibles/models/item/legendary_fruitpunchclown_card.json
+  assets/fnaf_collectibles/models/item/legendary_funtimechica_card.json
   assets/fnaf_collectibles/models/item/legendary_funtimefoxy_card.json
   assets/fnaf_collectibles/models/item/legendary_funtimefreddy_card.json
   assets/fnaf_collectibles/models/item/legendary_goldenfreddy_card.json
+  assets/fnaf_collectibles/models/item/legendary_gumballswivelhands_card.json
+  assets/fnaf_collectibles/models/item/legendary_handunit_card.json
+  assets/fnaf_collectibles/models/item/legendary_happyfrog_card.json
+  assets/fnaf_collectibles/models/item/legendary_helpy_card.json
   assets/fnaf_collectibles/models/item/legendary_jackobonnie_card.json
   assets/fnaf_collectibles/models/item/legendary_jackochica_card.json
   assets/fnaf_collectibles/models/item/legendary_jj_card.json
+  assets/fnaf_collectibles/models/item/legendary_lefty_card.json
+  assets/fnaf_collectibles/models/item/legendary_lemonadeclown_card.json
   assets/fnaf_collectibles/models/item/legendary_lolbit_card.json
   assets/fnaf_collectibles/models/item/legendary_mangle_card.json
   assets/fnaf_collectibles/models/item/legendary_minireena_card.json
+  assets/fnaf_collectibles/models/item/legendary_moltenfreddy_card.json
+  assets/fnaf_collectibles/models/item/legendary_mrhippo_card.json
+  assets/fnaf_collectibles/models/item/legendary_musicman_card.json
+  assets/fnaf_collectibles/models/item/legendary_neddbear_card.json
   assets/fnaf_collectibles/models/item/legendary_nightmare_card.json
   assets/fnaf_collectibles/models/item/legendary_nightmareballoonboy_card.json
   assets/fnaf_collectibles/models/item/legendary_nightmarebonnie_card.json
@@ -305,20 +371,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/legendary_nightmarefredbear_card.json
   assets/fnaf_collectibles/models/item/legendary_nightmarefreddy_card.json
   assets/fnaf_collectibles/models/item/legendary_nightmarepuppet_card.json
+  assets/fnaf_collectibles/models/item/legendary_orville_card.json
   assets/fnaf_collectibles/models/item/legendary_phantomballoonboy_card.json
   assets/fnaf_collectibles/models/item/legendary_phantomchica_card.json
   assets/fnaf_collectibles/models/item/legendary_phantomfoxy_card.json
   assets/fnaf_collectibles/models/item/legendary_phantomfreddy_card.json
   assets/fnaf_collectibles/models/item/legendary_phantommangle_card.json
   assets/fnaf_collectibles/models/item/legendary_phantompuppet_card.json
+  assets/fnaf_collectibles/models/item/legendary_pickles_card.json
+  assets/fnaf_collectibles/models/item/legendary_pigpatch_card.json
   assets/fnaf_collectibles/models/item/legendary_plushtrap_card.json
+  assets/fnaf_collectibles/models/item/legendary_prizeking_card.json
   assets/fnaf_collectibles/models/item/legendary_puppet_card.json
+  assets/fnaf_collectibles/models/item/legendary_rockstarbonnie_card.json
+  assets/fnaf_collectibles/models/item/legendary_rockstarchica_card.json
+  assets/fnaf_collectibles/models/item/legendary_rockstarfoxy_card.json
+  assets/fnaf_collectibles/models/item/legendary_rockstarfreddy_card.json
+  assets/fnaf_collectibles/models/item/legendary_scrapbaby_card.json
+  assets/fnaf_collectibles/models/item/legendary_scraptrap_card.json
+  assets/fnaf_collectibles/models/item/legendary_securitypuppet_card.json
   assets/fnaf_collectibles/models/item/legendary_shadowbonnie_card.json
   assets/fnaf_collectibles/models/item/legendary_shadowfreddy_card.json
   assets/fnaf_collectibles/models/item/legendary_springtrap_card.json
   assets/fnaf_collectibles/models/item/legendary_toybonnie_card.json
   assets/fnaf_collectibles/models/item/legendary_toychica_card.json
   assets/fnaf_collectibles/models/item/legendary_toyfreddy_card.json
+  assets/fnaf_collectibles/models/item/legendary_trashgang_card.json
   assets/fnaf_collectibles/models/item/legendary_witheredbonnie_card.json
   assets/fnaf_collectibles/models/item/legendary_witheredchic_card.json
   assets/fnaf_collectibles/models/item/legendary_witheredchica_card.json
@@ -331,22 +409,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/rare_bidybab_card.json
   assets/fnaf_collectibles/models/item/rare_bonbon_card.json
   assets/fnaf_collectibles/models/item/rare_bonnie_card.json
+  assets/fnaf_collectibles/models/item/rare_candycadet_card.json
   assets/fnaf_collectibles/models/item/rare_chica_card.json
   assets/fnaf_collectibles/models/item/rare_circusbaby_card.json
+  assets/fnaf_collectibles/models/item/rare_elchip_card.json
   assets/fnaf_collectibles/models/item/rare_endo1_card.json
   assets/fnaf_collectibles/models/item/rare_endo2_card.json
   assets/fnaf_collectibles/models/item/rare_ennard_card.json
   assets/fnaf_collectibles/models/item/rare_foxy_card.json
   assets/fnaf_collectibles/models/item/rare_freddy_card.json
+  assets/fnaf_collectibles/models/item/rare_fruitpunchclown_card.json
+  assets/fnaf_collectibles/models/item/rare_funtimechica_card.json
   assets/fnaf_collectibles/models/item/rare_funtimefoxy_card.json
   assets/fnaf_collectibles/models/item/rare_funtimefreddy_card.json
   assets/fnaf_collectibles/models/item/rare_goldenfreddy_card.json
+  assets/fnaf_collectibles/models/item/rare_gumballswivelhands_card.json
+  assets/fnaf_collectibles/models/item/rare_handunit_card.json
+  assets/fnaf_collectibles/models/item/rare_happyfrog_card.json
+  assets/fnaf_collectibles/models/item/rare_helpy_card.json
   assets/fnaf_collectibles/models/item/rare_jackobonnie_card.json
   assets/fnaf_collectibles/models/item/rare_jackochica_card.json
   assets/fnaf_collectibles/models/item/rare_jj_card.json
+  assets/fnaf_collectibles/models/item/rare_lefty_card.json
+  assets/fnaf_collectibles/models/item/rare_lemonadeclown_card.json
   assets/fnaf_collectibles/models/item/rare_lolbit_card.json
   assets/fnaf_collectibles/models/item/rare_mangle_card.json
   assets/fnaf_collectibles/models/item/rare_minireena_card.json
+  assets/fnaf_collectibles/models/item/rare_moltenfreddy_card.json
+  assets/fnaf_collectibles/models/item/rare_mrhippo_card.json
+  assets/fnaf_collectibles/models/item/rare_musicman_card.json
+  assets/fnaf_collectibles/models/item/rare_neddbear_card.json
   assets/fnaf_collectibles/models/item/rare_nightmare_card.json
   assets/fnaf_collectibles/models/item/rare_nightmareballoonboy_card.json
   assets/fnaf_collectibles/models/item/rare_nightmarebonnie_card.json
@@ -355,20 +447,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/rare_nightmarefredbear_card.json
   assets/fnaf_collectibles/models/item/rare_nightmarefreddy_card.json
   assets/fnaf_collectibles/models/item/rare_nightmarepuppet_card.json
+  assets/fnaf_collectibles/models/item/rare_orville_card.json
   assets/fnaf_collectibles/models/item/rare_phantomballoonboy_card.json
   assets/fnaf_collectibles/models/item/rare_phantomchica_card.json
   assets/fnaf_collectibles/models/item/rare_phantomfoxy_card.json
   assets/fnaf_collectibles/models/item/rare_phantomfreddy_card.json
   assets/fnaf_collectibles/models/item/rare_phantommangle_card.json
   assets/fnaf_collectibles/models/item/rare_phantompuppet_card.json
+  assets/fnaf_collectibles/models/item/rare_pickles_card.json
+  assets/fnaf_collectibles/models/item/rare_pigpatch_card.json
   assets/fnaf_collectibles/models/item/rare_plushtrap_card.json
+  assets/fnaf_collectibles/models/item/rare_prizeking_card.json
   assets/fnaf_collectibles/models/item/rare_puppet_card.json
+  assets/fnaf_collectibles/models/item/rare_rockstarbonnie_card.json
+  assets/fnaf_collectibles/models/item/rare_rockstarchica_card.json
+  assets/fnaf_collectibles/models/item/rare_rockstarfoxy_card.json
+  assets/fnaf_collectibles/models/item/rare_rockstarfreddy_card.json
+  assets/fnaf_collectibles/models/item/rare_scrapbaby_card.json
+  assets/fnaf_collectibles/models/item/rare_scraptrap_card.json
+  assets/fnaf_collectibles/models/item/rare_securitypuppet_card.json
   assets/fnaf_collectibles/models/item/rare_shadowbonnie_card.json
   assets/fnaf_collectibles/models/item/rare_shadowfreddy_card.json
   assets/fnaf_collectibles/models/item/rare_springtrap_card.json
   assets/fnaf_collectibles/models/item/rare_toybonnie_card.json
   assets/fnaf_collectibles/models/item/rare_toychica_card.json
   assets/fnaf_collectibles/models/item/rare_toyfreddy_card.json
+  assets/fnaf_collectibles/models/item/rare_trashgang_card.json
   assets/fnaf_collectibles/models/item/rare_witheredbonnie_card.json
   assets/fnaf_collectibles/models/item/rare_witheredchic_card.json
   assets/fnaf_collectibles/models/item/rare_witheredchica_card.json
@@ -381,22 +485,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/uncommon_bidybab_card.json
   assets/fnaf_collectibles/models/item/uncommon_bonbon_card.json
   assets/fnaf_collectibles/models/item/uncommon_bonnie_card.json
+  assets/fnaf_collectibles/models/item/uncommon_candycadet_card.json
   assets/fnaf_collectibles/models/item/uncommon_chica_card.json
   assets/fnaf_collectibles/models/item/uncommon_circusbaby_card.json
+  assets/fnaf_collectibles/models/item/uncommon_elchip_card.json
   assets/fnaf_collectibles/models/item/uncommon_endo1_card.json
   assets/fnaf_collectibles/models/item/uncommon_endo2_card.json
   assets/fnaf_collectibles/models/item/uncommon_ennard_card.json
   assets/fnaf_collectibles/models/item/uncommon_foxy_card.json
   assets/fnaf_collectibles/models/item/uncommon_freddy_card.json
+  assets/fnaf_collectibles/models/item/uncommon_fruitpunchclown_card.json
+  assets/fnaf_collectibles/models/item/uncommon_funtimechica_card.json
   assets/fnaf_collectibles/models/item/uncommon_funtimefoxy_card.json
   assets/fnaf_collectibles/models/item/uncommon_funtimefreddy_card.json
   assets/fnaf_collectibles/models/item/uncommon_goldenfreddy_card.json
+  assets/fnaf_collectibles/models/item/uncommon_gumballswivelhands_card.json
+  assets/fnaf_collectibles/models/item/uncommon_handunit_card.json
+  assets/fnaf_collectibles/models/item/uncommon_happyfrog_card.json
+  assets/fnaf_collectibles/models/item/uncommon_helpy_card.json
   assets/fnaf_collectibles/models/item/uncommon_jackobonnie_card.json
   assets/fnaf_collectibles/models/item/uncommon_jackochica_card.json
   assets/fnaf_collectibles/models/item/uncommon_jj_card.json
+  assets/fnaf_collectibles/models/item/uncommon_lefty_card.json
+  assets/fnaf_collectibles/models/item/uncommon_lemonadeclown_card.json
   assets/fnaf_collectibles/models/item/uncommon_lolbit_card.json
   assets/fnaf_collectibles/models/item/uncommon_mangle_card.json
   assets/fnaf_collectibles/models/item/uncommon_minireena_card.json
+  assets/fnaf_collectibles/models/item/uncommon_moltenfreddy_card.json
+  assets/fnaf_collectibles/models/item/uncommon_mrhippo_card.json
+  assets/fnaf_collectibles/models/item/uncommon_musicman_card.json
+  assets/fnaf_collectibles/models/item/uncommon_neddbear_card.json
   assets/fnaf_collectibles/models/item/uncommon_nightmare_card.json
   assets/fnaf_collectibles/models/item/uncommon_nightmareballoonboy_card.json
   assets/fnaf_collectibles/models/item/uncommon_nightmarebonnie_card.json
@@ -405,20 +523,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/models/item/uncommon_nightmarefredbear_card.json
   assets/fnaf_collectibles/models/item/uncommon_nightmarefreddy_card.json
   assets/fnaf_collectibles/models/item/uncommon_nightmarepuppet_card.json
+  assets/fnaf_collectibles/models/item/uncommon_orville_card.json
   assets/fnaf_collectibles/models/item/uncommon_phantomballoonboy_card.json
   assets/fnaf_collectibles/models/item/uncommon_phantomchica_card.json
   assets/fnaf_collectibles/models/item/uncommon_phantomfoxy_card.json
   assets/fnaf_collectibles/models/item/uncommon_phantomfreddy_card.json
   assets/fnaf_collectibles/models/item/uncommon_phantommangle_card.json
   assets/fnaf_collectibles/models/item/uncommon_phantompuppet_card.json
+  assets/fnaf_collectibles/models/item/uncommon_pickles_card.json
+  assets/fnaf_collectibles/models/item/uncommon_pigpatch_card.json
   assets/fnaf_collectibles/models/item/uncommon_plushtrap_card.json
+  assets/fnaf_collectibles/models/item/uncommon_prizeking_card.json
   assets/fnaf_collectibles/models/item/uncommon_puppet_card.json
+  assets/fnaf_collectibles/models/item/uncommon_rockstarbonnie_card.json
+  assets/fnaf_collectibles/models/item/uncommon_rockstarchica_card.json
+  assets/fnaf_collectibles/models/item/uncommon_rockstarfoxy_card.json
+  assets/fnaf_collectibles/models/item/uncommon_rockstarfreddy_card.json
+  assets/fnaf_collectibles/models/item/uncommon_scrapbaby_card.json
+  assets/fnaf_collectibles/models/item/uncommon_scraptrap_card.json
+  assets/fnaf_collectibles/models/item/uncommon_securitypuppet_card.json
   assets/fnaf_collectibles/models/item/uncommon_shadowbonnie_card.json
   assets/fnaf_collectibles/models/item/uncommon_shadowfreddy_card.json
   assets/fnaf_collectibles/models/item/uncommon_springtrap_card.json
   assets/fnaf_collectibles/models/item/uncommon_toybonnie_card.json
   assets/fnaf_collectibles/models/item/uncommon_toychica_card.json
   assets/fnaf_collectibles/models/item/uncommon_toyfreddy_card.json
+  assets/fnaf_collectibles/models/item/uncommon_trashgang_card.json
   assets/fnaf_collectibles/models/item/uncommon_witheredbonnie_card.json
   assets/fnaf_collectibles/models/item/uncommon_witheredchic_card.json
   assets/fnaf_collectibles/models/item/uncommon_witheredchica_card.json
@@ -436,22 +566,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/common_bidybab_card.png
   assets/fnaf_collectibles/textures/item/common_bonbon_card.png
   assets/fnaf_collectibles/textures/item/common_bonnie_card.png
+  assets/fnaf_collectibles/textures/item/common_candycadet_card.png
   assets/fnaf_collectibles/textures/item/common_chica_card.png
   assets/fnaf_collectibles/textures/item/common_circusbaby_card.png
+  assets/fnaf_collectibles/textures/item/common_elchip_card.png
   assets/fnaf_collectibles/textures/item/common_endo1_card.png
   assets/fnaf_collectibles/textures/item/common_endo2_card.png
   assets/fnaf_collectibles/textures/item/common_ennard_card.png
   assets/fnaf_collectibles/textures/item/common_foxy_card.png
   assets/fnaf_collectibles/textures/item/common_freddy_card.png
+  assets/fnaf_collectibles/textures/item/common_fruitpunchclown_card.png
+  assets/fnaf_collectibles/textures/item/common_funtimechica_card.png
   assets/fnaf_collectibles/textures/item/common_funtimefoxy_card.png
   assets/fnaf_collectibles/textures/item/common_funtimefreddy_card.png
   assets/fnaf_collectibles/textures/item/common_goldenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/common_gumballswivelhands_card.png
+  assets/fnaf_collectibles/textures/item/common_handunit_card.png
+  assets/fnaf_collectibles/textures/item/common_happyfrog_card.png
+  assets/fnaf_collectibles/textures/item/common_helpy_card.png
   assets/fnaf_collectibles/textures/item/common_jackobonnie_card.png
   assets/fnaf_collectibles/textures/item/common_jackochica_card.png
   assets/fnaf_collectibles/textures/item/common_jj_card.png
+  assets/fnaf_collectibles/textures/item/common_lefty_card.png
+  assets/fnaf_collectibles/textures/item/common_lemonadeclown_card.png
   assets/fnaf_collectibles/textures/item/common_lolbit_card.png
   assets/fnaf_collectibles/textures/item/common_mangle_card.png
   assets/fnaf_collectibles/textures/item/common_minireena_card.png
+  assets/fnaf_collectibles/textures/item/common_moltenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/common_mrhippo_card.png
+  assets/fnaf_collectibles/textures/item/common_musicman_card.png
+  assets/fnaf_collectibles/textures/item/common_neddbear_card.png
   assets/fnaf_collectibles/textures/item/common_nightmare_card.png
   assets/fnaf_collectibles/textures/item/common_nightmareballoonboy_card.png
   assets/fnaf_collectibles/textures/item/common_nightmarebonnie_card.png
@@ -460,20 +604,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/common_nightmarefredbear_card.png
   assets/fnaf_collectibles/textures/item/common_nightmarefreddy_card.png
   assets/fnaf_collectibles/textures/item/common_nightmarepuppet_card.png
+  assets/fnaf_collectibles/textures/item/common_orville_card.png
   assets/fnaf_collectibles/textures/item/common_phantomballoonboy_card.png
   assets/fnaf_collectibles/textures/item/common_phantomchica_card.png
   assets/fnaf_collectibles/textures/item/common_phantomfoxy_card.png
   assets/fnaf_collectibles/textures/item/common_phantomfreddy_card.png
   assets/fnaf_collectibles/textures/item/common_phantommangle_card.png
   assets/fnaf_collectibles/textures/item/common_phantompuppet_card.png
+  assets/fnaf_collectibles/textures/item/common_pickles_card.png
+  assets/fnaf_collectibles/textures/item/common_pigpatch_card.png
   assets/fnaf_collectibles/textures/item/common_plushtrap_card.png
+  assets/fnaf_collectibles/textures/item/common_prizeking_card.png
   assets/fnaf_collectibles/textures/item/common_puppet_card.png
+  assets/fnaf_collectibles/textures/item/common_rockstarbonnie_card.png
+  assets/fnaf_collectibles/textures/item/common_rockstarchica_card.png
+  assets/fnaf_collectibles/textures/item/common_rockstarfoxy_card.png
+  assets/fnaf_collectibles/textures/item/common_rockstarfreddy_card.png
+  assets/fnaf_collectibles/textures/item/common_scrapbaby_card.png
+  assets/fnaf_collectibles/textures/item/common_scraptrap_card.png
+  assets/fnaf_collectibles/textures/item/common_securitypuppet_card.png
   assets/fnaf_collectibles/textures/item/common_shadowbonnie_card.png
   assets/fnaf_collectibles/textures/item/common_shadowfreddy_card.png
   assets/fnaf_collectibles/textures/item/common_springtrap_card.png
   assets/fnaf_collectibles/textures/item/common_toybonnie_card.png
   assets/fnaf_collectibles/textures/item/common_toychica_card.png
   assets/fnaf_collectibles/textures/item/common_toyfreddy_card.png
+  assets/fnaf_collectibles/textures/item/common_trashgang_card.png
   assets/fnaf_collectibles/textures/item/common_witheredbonnie_card.png
   assets/fnaf_collectibles/textures/item/common_witheredchic_card.png
   assets/fnaf_collectibles/textures/item/common_witheredchica_card.png
@@ -486,22 +642,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/epic_bidybab_card.png
   assets/fnaf_collectibles/textures/item/epic_bonbon_card.png
   assets/fnaf_collectibles/textures/item/epic_bonnie_card.png
+  assets/fnaf_collectibles/textures/item/epic_candycadet_card.png
   assets/fnaf_collectibles/textures/item/epic_chica_card.png
   assets/fnaf_collectibles/textures/item/epic_circusbaby_card.png
+  assets/fnaf_collectibles/textures/item/epic_elchip_card.png
   assets/fnaf_collectibles/textures/item/epic_endo1_card.png
   assets/fnaf_collectibles/textures/item/epic_endo2_card.png
   assets/fnaf_collectibles/textures/item/epic_ennard_card.png
   assets/fnaf_collectibles/textures/item/epic_foxy_card.png
   assets/fnaf_collectibles/textures/item/epic_freddy_card.png
+  assets/fnaf_collectibles/textures/item/epic_fruitpunchclown_card.png
+  assets/fnaf_collectibles/textures/item/epic_funtimechica_card.png
   assets/fnaf_collectibles/textures/item/epic_funtimefoxy_card.png
   assets/fnaf_collectibles/textures/item/epic_funtimefreddy_card.png
   assets/fnaf_collectibles/textures/item/epic_goldenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/epic_gumballswivelhands_card.png
+  assets/fnaf_collectibles/textures/item/epic_handunit_card.png
+  assets/fnaf_collectibles/textures/item/epic_happyfrog_card.png
+  assets/fnaf_collectibles/textures/item/epic_helpy_card.png
   assets/fnaf_collectibles/textures/item/epic_jackobonnie_card.png
   assets/fnaf_collectibles/textures/item/epic_jackochica_card.png
   assets/fnaf_collectibles/textures/item/epic_jj_card.png
+  assets/fnaf_collectibles/textures/item/epic_lefty_card.png
+  assets/fnaf_collectibles/textures/item/epic_lemonadeclown_card.png
   assets/fnaf_collectibles/textures/item/epic_lolbit_card.png
   assets/fnaf_collectibles/textures/item/epic_mangle_card.png
   assets/fnaf_collectibles/textures/item/epic_minireena_card.png
+  assets/fnaf_collectibles/textures/item/epic_moltenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/epic_mrhippo_card.png
+  assets/fnaf_collectibles/textures/item/epic_musicman_card.png
+  assets/fnaf_collectibles/textures/item/epic_neddbear_card.png
   assets/fnaf_collectibles/textures/item/epic_nightmare_card.png
   assets/fnaf_collectibles/textures/item/epic_nightmareballoonboy_card.png
   assets/fnaf_collectibles/textures/item/epic_nightmarebonnie_card.png
@@ -510,20 +680,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/epic_nightmarefredbear_card.png
   assets/fnaf_collectibles/textures/item/epic_nightmarefreddy_card.png
   assets/fnaf_collectibles/textures/item/epic_nightmarepuppet_card.png
+  assets/fnaf_collectibles/textures/item/epic_orville_card.png
   assets/fnaf_collectibles/textures/item/epic_phantomballoonboy_card.png
   assets/fnaf_collectibles/textures/item/epic_phantomchica_card.png
   assets/fnaf_collectibles/textures/item/epic_phantomfoxy_card.png
   assets/fnaf_collectibles/textures/item/epic_phantomfreddy_card.png
   assets/fnaf_collectibles/textures/item/epic_phantommangle_card.png
   assets/fnaf_collectibles/textures/item/epic_phantompuppet_card.png
+  assets/fnaf_collectibles/textures/item/epic_pickles_card.png
+  assets/fnaf_collectibles/textures/item/epic_pigpatch_card.png
   assets/fnaf_collectibles/textures/item/epic_plushtrap_card.png
+  assets/fnaf_collectibles/textures/item/epic_prizeking_card.png
   assets/fnaf_collectibles/textures/item/epic_puppet_card.png
+  assets/fnaf_collectibles/textures/item/epic_rockstarbonnie_card.png
+  assets/fnaf_collectibles/textures/item/epic_rockstarchica_card.png
+  assets/fnaf_collectibles/textures/item/epic_rockstarfoxy_card.png
+  assets/fnaf_collectibles/textures/item/epic_rockstarfreddy_card.png
+  assets/fnaf_collectibles/textures/item/epic_scrapbaby_card.png
+  assets/fnaf_collectibles/textures/item/epic_scraptrap_card.png
+  assets/fnaf_collectibles/textures/item/epic_securitypuppet_card.png
   assets/fnaf_collectibles/textures/item/epic_shadowbonnie_card.png
   assets/fnaf_collectibles/textures/item/epic_shadowfreddy_card.png
   assets/fnaf_collectibles/textures/item/epic_springtrap_card.png
   assets/fnaf_collectibles/textures/item/epic_toybonnie_card.png
   assets/fnaf_collectibles/textures/item/epic_toychica_card.png
   assets/fnaf_collectibles/textures/item/epic_toyfreddy_card.png
+  assets/fnaf_collectibles/textures/item/epic_trashgang_card.png
   assets/fnaf_collectibles/textures/item/epic_witheredbonnie_card.png
   assets/fnaf_collectibles/textures/item/epic_witheredchic_card.png
   assets/fnaf_collectibles/textures/item/epic_witheredchica_card.png
@@ -539,22 +721,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/legendary_bidybab_card.png
   assets/fnaf_collectibles/textures/item/legendary_bonbon_card.png
   assets/fnaf_collectibles/textures/item/legendary_bonnie_card.png
+  assets/fnaf_collectibles/textures/item/legendary_candycadet_card.png
   assets/fnaf_collectibles/textures/item/legendary_chica_card.png
   assets/fnaf_collectibles/textures/item/legendary_circusbaby_card.png
+  assets/fnaf_collectibles/textures/item/legendary_elchip_card.png
   assets/fnaf_collectibles/textures/item/legendary_endo1_card.png
   assets/fnaf_collectibles/textures/item/legendary_endo2_card.png
   assets/fnaf_collectibles/textures/item/legendary_ennard_card.png
   assets/fnaf_collectibles/textures/item/legendary_foxy_card.png
   assets/fnaf_collectibles/textures/item/legendary_freddy_card.png
+  assets/fnaf_collectibles/textures/item/legendary_fruitpunchclown_card.png
+  assets/fnaf_collectibles/textures/item/legendary_funtimechica_card.png
   assets/fnaf_collectibles/textures/item/legendary_funtimefoxy_card.png
   assets/fnaf_collectibles/textures/item/legendary_funtimefreddy_card.png
   assets/fnaf_collectibles/textures/item/legendary_goldenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/legendary_gumballswivelhands_card.png
+  assets/fnaf_collectibles/textures/item/legendary_handunit_card.png
+  assets/fnaf_collectibles/textures/item/legendary_happyfrog_card.png
+  assets/fnaf_collectibles/textures/item/legendary_helpy_card.png
   assets/fnaf_collectibles/textures/item/legendary_jackobonnie_card.png
   assets/fnaf_collectibles/textures/item/legendary_jackochica_card.png
   assets/fnaf_collectibles/textures/item/legendary_jj_card.png
+  assets/fnaf_collectibles/textures/item/legendary_lefty_card.png
+  assets/fnaf_collectibles/textures/item/legendary_lemonadeclown_card.png
   assets/fnaf_collectibles/textures/item/legendary_lolbit_card.png
   assets/fnaf_collectibles/textures/item/legendary_mangle_card.png
   assets/fnaf_collectibles/textures/item/legendary_minireena_card.png
+  assets/fnaf_collectibles/textures/item/legendary_moltenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/legendary_mrhippo_card.png
+  assets/fnaf_collectibles/textures/item/legendary_musicman_card.png
+  assets/fnaf_collectibles/textures/item/legendary_neddbear_card.png
   assets/fnaf_collectibles/textures/item/legendary_nightmare_card.png
   assets/fnaf_collectibles/textures/item/legendary_nightmareballoonboy_card.png
   assets/fnaf_collectibles/textures/item/legendary_nightmarebonnie_card.png
@@ -563,20 +759,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/legendary_nightmarefredbear_card.png
   assets/fnaf_collectibles/textures/item/legendary_nightmarefreddy_card.png
   assets/fnaf_collectibles/textures/item/legendary_nightmarepuppet_card.png
+  assets/fnaf_collectibles/textures/item/legendary_orville_card.png
   assets/fnaf_collectibles/textures/item/legendary_phantomballoonboy_card.png
   assets/fnaf_collectibles/textures/item/legendary_phantomchica_card.png
   assets/fnaf_collectibles/textures/item/legendary_phantomfoxy_card.png
   assets/fnaf_collectibles/textures/item/legendary_phantomfreddy_card.png
   assets/fnaf_collectibles/textures/item/legendary_phantommangle_card.png
   assets/fnaf_collectibles/textures/item/legendary_phantompuppet_card.png
+  assets/fnaf_collectibles/textures/item/legendary_pickles_card.png
+  assets/fnaf_collectibles/textures/item/legendary_pigpatch_card.png
   assets/fnaf_collectibles/textures/item/legendary_plushtrap_card.png
+  assets/fnaf_collectibles/textures/item/legendary_prizeking_card.png
   assets/fnaf_collectibles/textures/item/legendary_puppet_card.png
+  assets/fnaf_collectibles/textures/item/legendary_rockstarbonnie_card.png
+  assets/fnaf_collectibles/textures/item/legendary_rockstarchica_card.png
+  assets/fnaf_collectibles/textures/item/legendary_rockstarfoxy_card.png
+  assets/fnaf_collectibles/textures/item/legendary_rockstarfreddy_card.png
+  assets/fnaf_collectibles/textures/item/legendary_scrapbaby_card.png
+  assets/fnaf_collectibles/textures/item/legendary_scraptrap_card.png
+  assets/fnaf_collectibles/textures/item/legendary_securitypuppet_card.png
   assets/fnaf_collectibles/textures/item/legendary_shadowbonnie_card.png
   assets/fnaf_collectibles/textures/item/legendary_shadowfreddy_card.png
   assets/fnaf_collectibles/textures/item/legendary_springtrap_card.png
   assets/fnaf_collectibles/textures/item/legendary_toybonnie_card.png
   assets/fnaf_collectibles/textures/item/legendary_toychica_card.png
   assets/fnaf_collectibles/textures/item/legendary_toyfreddy_card.png
+  assets/fnaf_collectibles/textures/item/legendary_trashgang_card.png
   assets/fnaf_collectibles/textures/item/legendary_witheredbonnie_card.png
   assets/fnaf_collectibles/textures/item/legendary_witheredchic_card.png
   assets/fnaf_collectibles/textures/item/legendary_witheredchica_card.png
@@ -589,22 +797,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/rare_bidybab_card.png
   assets/fnaf_collectibles/textures/item/rare_bonbon_card.png
   assets/fnaf_collectibles/textures/item/rare_bonnie_card.png
+  assets/fnaf_collectibles/textures/item/rare_candycadet_card.png
   assets/fnaf_collectibles/textures/item/rare_chica_card.png
   assets/fnaf_collectibles/textures/item/rare_circusbaby_card.png
+  assets/fnaf_collectibles/textures/item/rare_elchip_card.png
   assets/fnaf_collectibles/textures/item/rare_endo1_card.png
   assets/fnaf_collectibles/textures/item/rare_endo2_card.png
   assets/fnaf_collectibles/textures/item/rare_ennard_card.png
   assets/fnaf_collectibles/textures/item/rare_foxy_card.png
   assets/fnaf_collectibles/textures/item/rare_freddy_card.png
+  assets/fnaf_collectibles/textures/item/rare_fruitpunchclown_card.png
+  assets/fnaf_collectibles/textures/item/rare_funtimechica_card.png
   assets/fnaf_collectibles/textures/item/rare_funtimefoxy_card.png
   assets/fnaf_collectibles/textures/item/rare_funtimefreddy_card.png
   assets/fnaf_collectibles/textures/item/rare_goldenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/rare_gumballswivelhands_card.png
+  assets/fnaf_collectibles/textures/item/rare_handunit_card.png
+  assets/fnaf_collectibles/textures/item/rare_happyfrog_card.png
+  assets/fnaf_collectibles/textures/item/rare_helpy_card.png
   assets/fnaf_collectibles/textures/item/rare_jackobonnie_card.png
   assets/fnaf_collectibles/textures/item/rare_jackochica_card.png
   assets/fnaf_collectibles/textures/item/rare_jj_card.png
+  assets/fnaf_collectibles/textures/item/rare_lefty_card.png
+  assets/fnaf_collectibles/textures/item/rare_lemonadeclown_card.png
   assets/fnaf_collectibles/textures/item/rare_lolbit_card.png
   assets/fnaf_collectibles/textures/item/rare_mangle_card.png
   assets/fnaf_collectibles/textures/item/rare_minireena_card.png
+  assets/fnaf_collectibles/textures/item/rare_moltenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/rare_mrhippo_card.png
+  assets/fnaf_collectibles/textures/item/rare_musicman_card.png
+  assets/fnaf_collectibles/textures/item/rare_neddbear_card.png
   assets/fnaf_collectibles/textures/item/rare_nightmare_card.png
   assets/fnaf_collectibles/textures/item/rare_nightmareballoonboy_card.png
   assets/fnaf_collectibles/textures/item/rare_nightmarebonnie_card.png
@@ -613,20 +835,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/rare_nightmarefredbear_card.png
   assets/fnaf_collectibles/textures/item/rare_nightmarefreddy_card.png
   assets/fnaf_collectibles/textures/item/rare_nightmarepuppet_card.png
+  assets/fnaf_collectibles/textures/item/rare_orville_card.png
   assets/fnaf_collectibles/textures/item/rare_phantomballoonboy_card.png
   assets/fnaf_collectibles/textures/item/rare_phantomchica_card.png
   assets/fnaf_collectibles/textures/item/rare_phantomfoxy_card.png
   assets/fnaf_collectibles/textures/item/rare_phantomfreddy_card.png
   assets/fnaf_collectibles/textures/item/rare_phantommangle_card.png
   assets/fnaf_collectibles/textures/item/rare_phantompuppet_card.png
+  assets/fnaf_collectibles/textures/item/rare_pickles_card.png
+  assets/fnaf_collectibles/textures/item/rare_pigpatch_card.png
   assets/fnaf_collectibles/textures/item/rare_plushtrap_card.png
+  assets/fnaf_collectibles/textures/item/rare_prizeking_card.png
   assets/fnaf_collectibles/textures/item/rare_puppet_card.png
+  assets/fnaf_collectibles/textures/item/rare_rockstarbonnie_card.png
+  assets/fnaf_collectibles/textures/item/rare_rockstarchica_card.png
+  assets/fnaf_collectibles/textures/item/rare_rockstarfoxy_card.png
+  assets/fnaf_collectibles/textures/item/rare_rockstarfreddy_card.png
+  assets/fnaf_collectibles/textures/item/rare_scrapbaby_card.png
+  assets/fnaf_collectibles/textures/item/rare_scraptrap_card.png
+  assets/fnaf_collectibles/textures/item/rare_securitypuppet_card.png
   assets/fnaf_collectibles/textures/item/rare_shadowbonnie_card.png
   assets/fnaf_collectibles/textures/item/rare_shadowfreddy_card.png
   assets/fnaf_collectibles/textures/item/rare_springtrap_card.png
   assets/fnaf_collectibles/textures/item/rare_toybonnie_card.png
   assets/fnaf_collectibles/textures/item/rare_toychica_card.png
   assets/fnaf_collectibles/textures/item/rare_toyfreddy_card.png
+  assets/fnaf_collectibles/textures/item/rare_trashgang_card.png
   assets/fnaf_collectibles/textures/item/rare_witheredbonnie_card.png
   assets/fnaf_collectibles/textures/item/rare_witheredchic_card.png
   assets/fnaf_collectibles/textures/item/rare_witheredchica_card.png
@@ -639,22 +873,36 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/uncommon_bidybab_card.png
   assets/fnaf_collectibles/textures/item/uncommon_bonbon_card.png
   assets/fnaf_collectibles/textures/item/uncommon_bonnie_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_candycadet_card.png
   assets/fnaf_collectibles/textures/item/uncommon_chica_card.png
   assets/fnaf_collectibles/textures/item/uncommon_circusbaby_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_elchip_card.png
   assets/fnaf_collectibles/textures/item/uncommon_endo1_card.png
   assets/fnaf_collectibles/textures/item/uncommon_endo2_card.png
   assets/fnaf_collectibles/textures/item/uncommon_ennard_card.png
   assets/fnaf_collectibles/textures/item/uncommon_foxy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_freddy_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_fruitpunchclown_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_funtimechica_card.png
   assets/fnaf_collectibles/textures/item/uncommon_funtimefoxy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_funtimefreddy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_goldenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_gumballswivelhands_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_handunit_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_happyfrog_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_helpy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_jackobonnie_card.png
   assets/fnaf_collectibles/textures/item/uncommon_jackochica_card.png
   assets/fnaf_collectibles/textures/item/uncommon_jj_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_lefty_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_lemonadeclown_card.png
   assets/fnaf_collectibles/textures/item/uncommon_lolbit_card.png
   assets/fnaf_collectibles/textures/item/uncommon_mangle_card.png
   assets/fnaf_collectibles/textures/item/uncommon_minireena_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_moltenfreddy_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_mrhippo_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_musicman_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_neddbear_card.png
   assets/fnaf_collectibles/textures/item/uncommon_nightmare_card.png
   assets/fnaf_collectibles/textures/item/uncommon_nightmareballoonboy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_nightmarebonnie_card.png
@@ -663,20 +911,32 @@ Writing Output: D:\GitHub\FNaFCollectibleCards\Forge1.20.1\build\reobfJar\output
   assets/fnaf_collectibles/textures/item/uncommon_nightmarefredbear_card.png
   assets/fnaf_collectibles/textures/item/uncommon_nightmarefreddy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_nightmarepuppet_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_orville_card.png
   assets/fnaf_collectibles/textures/item/uncommon_phantomballoonboy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_phantomchica_card.png
   assets/fnaf_collectibles/textures/item/uncommon_phantomfoxy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_phantomfreddy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_phantommangle_card.png
   assets/fnaf_collectibles/textures/item/uncommon_phantompuppet_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_pickles_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_pigpatch_card.png
   assets/fnaf_collectibles/textures/item/uncommon_plushtrap_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_prizeking_card.png
   assets/fnaf_collectibles/textures/item/uncommon_puppet_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_rockstarbonnie_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_rockstarchica_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_rockstarfoxy_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_rockstarfreddy_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_scrapbaby_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_scraptrap_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_securitypuppet_card.png
   assets/fnaf_collectibles/textures/item/uncommon_shadowbonnie_card.png
   assets/fnaf_collectibles/textures/item/uncommon_shadowfreddy_card.png
   assets/fnaf_collectibles/textures/item/uncommon_springtrap_card.png
   assets/fnaf_collectibles/textures/item/uncommon_toybonnie_card.png
   assets/fnaf_collectibles/textures/item/uncommon_toychica_card.png
   assets/fnaf_collectibles/textures/item/uncommon_toyfreddy_card.png
+  assets/fnaf_collectibles/textures/item/uncommon_trashgang_card.png
   assets/fnaf_collectibles/textures/item/uncommon_witheredbonnie_card.png
   assets/fnaf_collectibles/textures/item/uncommon_witheredchic_card.png
   assets/fnaf_collectibles/textures/item/uncommon_witheredchica_card.png

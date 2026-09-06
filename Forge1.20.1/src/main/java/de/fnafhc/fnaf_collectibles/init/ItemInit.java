@@ -83,10 +83,37 @@ public class ItemInit {
     public static final CardSet BALLORACARD = new CardSet("ballora_card");
     public static final CardSet ENNARDCARD = new CardSet("ennard_card");
     public static final CardSet BONBONCARD = new CardSet("bonbon_card");
+    public static final CardSet HANDUNITCARD = new CardSet("handunit_card");
     public static final CardSet BIDYBABCARD = new CardSet("bidybab_card");
     public static final CardSet MINIREENACARD = new CardSet("minireena_card");
     public static final CardSet LOLBITCARD = new CardSet("lolbit_card");
     public static final CardSet YENNDOCARD = new CardSet("yenndo_card");
+
+    public static final CardSet ROCKSTARFREDDYCARD = new CardSet("rockstarfreddy_card");
+    public static final CardSet ROCKSTARBONNIECARD = new CardSet("rockstarbonnie_card");
+    public static final CardSet ROCKSTARCHICACARD = new CardSet("rockstarchica_card");
+    public static final CardSet ROCKSTARFOXYCARD = new CardSet("rockstarfoxy_card");
+    public static final CardSet SCRAPBABYCARD = new CardSet("scrapbaby_card");
+    public static final CardSet SCRAPTRAP = new CardSet("scraptrap_card");
+    public static final CardSet MOLTENFREDDY = new CardSet("moltenfreddy_card");
+    public static final CardSet LEFTYCARD = new CardSet("lefty_card");
+    public static final CardSet HELPYCARD = new CardSet("helpy_card");
+    public static final CardSet MUSICMANCARD = new CardSet("musicman_card");
+    public static final CardSet ELCHIPCARD = new CardSet("elchip_card");
+    public static final CardSet FUNTIMECHICACARD = new CardSet("funtimechica_card");
+    public static final CardSet HAPPYFROGCARD = new CardSet("happyfrog_card");
+    public static final CardSet MRHIPPOCARD = new CardSet("mrhippo_card");
+    public static final CardSet PIGPATCHCARD = new CardSet("pigpatch_card");
+    public static final CardSet NEDDBEARCARD = new CardSet("neddbear_card");
+    public static final CardSet ORVILLECARD = new CardSet("orville_card");
+    public static final CardSet TRASHGANGCARD = new CardSet("trashgang_card");
+    public static final CardSet PICKLESCARD = new CardSet("pickles_card");
+    public static final CardSet SECURITYPUPPETCARD = new CardSet("securitypuppet_card");
+    public static final CardSet CANDYCADETCARD = new CardSet("candycadet_card");
+    public static final CardSet FRUITPUNCHCLOWNCARD = new CardSet("fruitpunchclown_card");
+    public static final CardSet LEMONADECLOWNCARD = new CardSet("lemonadeclown_card");
+    public static final CardSet PRIZEKINGCARD = new CardSet("prizeking_card");
+    public static final CardSet GUMBALLSWIVELHANDSCARD = new CardSet("gumballswivelhands_card");
 
     public static RegistryObject<Item> _card(String name, String lvl){
         if(lvl == "common") {

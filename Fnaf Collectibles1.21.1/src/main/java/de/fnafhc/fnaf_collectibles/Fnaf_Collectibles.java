@@ -83,10 +83,37 @@ public class Fnaf_Collectibles {
                 ItemInit.BALLORACARD,
                 ItemInit.ENNARDCARD,
                 ItemInit.BONBONCARD,
+                ItemInit.HANDUNITCARD,
                 ItemInit.BIDYBABCARD,
                 ItemInit.MINIREENACARD,
                 ItemInit.LOLBITCARD,
-                ItemInit.YENNDOCARD
+                ItemInit.YENNDOCARD,
+
+                ItemInit.ROCKSTARFREDDYCARD,
+                ItemInit.ROCKSTARBONNIECARD,
+                ItemInit.ROCKSTARCHICACARD,
+                ItemInit.ROCKSTARFOXYCARD,
+                ItemInit.SCRAPBABYCARD,
+                ItemInit.SCRAPTRAP,
+                ItemInit.MOLTENFREDDY,
+                ItemInit.LEFTYCARD,
+                ItemInit.HELPYCARD,
+                ItemInit.MUSICMANCARD,
+                ItemInit.ELCHIPCARD,
+                ItemInit.FUNTIMECHICACARD,
+                ItemInit.HAPPYFROGCARD,
+                ItemInit.MRHIPPOCARD,
+                ItemInit.PIGPATCHCARD,
+                ItemInit.NEDDBEARCARD,
+                ItemInit.ORVILLECARD,
+                ItemInit.TRASHGANGCARD,
+                ItemInit.PICKLESCARD,
+                ItemInit.SECURITYPUPPETCARD,
+                ItemInit.CANDYCADETCARD,
+                ItemInit.FRUITPUNCHCLOWNCARD,
+                ItemInit.LEMONADECLOWNCARD,
+                ItemInit.PRIZEKINGCARD,
+                ItemInit.GUMBALLSWIVELHANDSCARD
         };
 
         Fnaf_Collectibles.common    = ItemInit.cardsOf(set -> set.common);

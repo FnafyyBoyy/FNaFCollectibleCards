@@ -192,7 +192,7 @@ public class IndexScreen extends Screen {
                 "§lFNaF Collectibles Index", leftPos + 27, animatedTopPos + 25, 0xFFFFFF, 0.5F);
 
         renderStringWithCustomSize(graphics, font,
-                "Not finished system!", leftPos + 10, animatedTopPos + 56, 0xFFFFFF, 0.4F);
+                "More soon!", leftPos + 10, animatedTopPos + 56, 0xFFFFFF, 0.4F);
 
         renderStringWithCustomSize(graphics, getMinecraft().font,
                 "Overall: " + String.format("%.1f%%", prozent) +
